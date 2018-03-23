@@ -30,6 +30,10 @@ Rails.application.config.middleware.use OmniAuth::Builder do
 end
 ```
 
+## Common problems
+
+If you get an error `JWT::ImmatureSignature` 'Signature nbf has not been reached', it means your server date is not up to date.
+
 ## Author
 
 - [Jonathan VUKOVICH TRIBOUHARET](https://github.com/jonathantribouharet) ([@johntribouharet](https://twitter.com/johntribouharet))
